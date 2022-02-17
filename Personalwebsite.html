@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <script>
+    /*add sticky menubar later*/
+  </script>
+  <style>
+    body {
+      background-image: url(img/Hintergrundbild.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    .backgroundDarkening {
+      width: 100%;
+      height: 950px;
+      border-radius: 20px;
+      /*backdrop-filter not working here*/
+    }
+    .headerBox {
+      width: 100%;
+      height: 100px;
+      margin: 0 auto;
+      background-color: green;
+      border-radius: 10px;
+      position: center;
+      top: 0;
+      left: 0;
+      display: flex;
+      transition: 0.6s;
+      box-shadow: 5px 5px 25px 5px #000000;
+    }
+    .Title {
+      color: white;
+      padding-top: 3px;
+      padding-left: 30px;
+      font-size: 30px;
+      font-family: arial;
+      margin: 0px;
+      float: left;
+    }
+    .menuOpOne {
+      font-size: 20px;
+      font-family: arial;
+      color: white;
+      float: left;
+      padding-top: 0px;
+      margin: 10px;
+      padding: 10px;
+      padding-left: 20px;
+    }
+    .menuOpTwo {
+      font-family: arial;
+      font-size: 20px;
+      float: left;
+      padding-top: 0px;
+      padding-left: 10px;
+      margin: 10px;
+      padding: 10px;
+    }
+    .menuOpThree {
+      font-family: Arial;
+      font-size: 20px;
+      float: left;
+      padding-top: 0px;
+      padding-left: 10px;
+      margin: 10px;
+      padding: 10px;
+      padding-top: 30px;
+    }
+    .aboutMe {
+      margin: auto;
+      margin-top: 40px;
+      position: center;
+      top: 200px;
+      height: 150px;
+      background-color: #3a3a3a;
+      border-radius: 10px;
+      font-family: arial;
+      font-size: 18px;
+      padding-top: px;
+      height: 300px;
+      box-shadow: 5px 5px 25px 5px #000000;
+      width: fit-content;
+    }
+    .aboutMeImg {
+      border-radius: 40px;
+      height: 250px;
+      float: left;
+      margin: 0 auto;
+      padding: 28px;
+    }
+    .aboutMeText {
+      padding-left: 40px;
+      padding-top: 3px;
+      color: white;
+    }
+    .aboutMeTitle {
+      font-size: 30px;
+      padding: 20px;
+      float: top;
+    }
+    .gear {
+      background-color: darkgreen;
+      border-radius: 10px;
+      margin: auto;
+      margin-top: 30px;
+      height: fit-content;
+      width: fit-content;
+      font-family: arial;
+      position: center;
+      padding: 20px;
+      padding-top: 0px;
+      box-shadow: 5px 5px 25px 5px #000000;
+    }
+    .gearTitle {
+      float: middle;
+      color: white;
+      font-size: 30px;
+      padding-top: 0.0084px;
+    }
+    .gearText {
+      color: white;
+      float: middle;
+    }
+    .galleryBox {
+      margin-top: 400px;
+      background-color: rgba(101, 101, 101, 1);
+      border-radius: 10px;
+      width: 200px;
+      height: 100px;
+      box-shadow: 5px 5px 25px 5px #000000;
+      margin: auto;
+      margin-top: 30px;
+    }
+    .galleryTitle {
+      padding: 3px;
+      color: white;
+      font-size: 30px;
+      font-family: Arial;
+      text-align: center;
+    }
+    .firstGalleryImg {
+      box-shadow: 5px 5px 25px 5px #000000;
+      margin-top: 50px;
+      border-radius: 5px;
+      height: 100%;
+      text-align: center;
+      display: block;
+      margin: 50px auto 0px auto;
+    }
+  </style>
+  <body a link="white" vlink="white">
+    <div class="backgroundDarkening">
+      <div class="headerBox">
+        <div class="Title">
+          <p>
+            <a href="noahstorck.de" style="text-decoration: none"
+              >Noah Storck</a
+            >
+          </p>
+        </div>
+        <div class="menuOpOne">
+          <p>
+            <a href="#aboutMe" style="text-decoration: none">About Me</a>
+          </p>
+        </div>
+        <div class="menuOpTwo">
+          <p>
+            <a href="noahstorck.de/gallery" style="text-decoration: none"
+              >Gallery</a
+            >
+          </p>
+        </div>
+        <div class="menuOpThree">
+          <a href="noahstorck.de/gear" style="text-decoration: none">Gear</a>
+        </div>
+      </div>
+      <div id="aboutMe" class="aboutMe">
+        <img
+          class="aboutMeImg"
+          src="img/Noah_Storck_zugeschnitten.jpg"
+          alt=""
+        />
+        <div class="aboutMeText">
+          <p class="aboutMeTitle">About Me</p>
+          <p>
+            I'm a hobby Photographer and soon to be programmer based near
+            cologne.
+          </p>
+        </div>
+      </div>
+      <div id="gear" class="gear">
+        <div class="gearTitle">
+          <p>Gear</p>
+        </div>
+        <div class="gearText">
+          <p>I mainly use an Sony A7 mark 1,</p>
+          <p>but i also own an a6000 and RX100 mark 1</p>
+        </div>
+      </div>
+      <div id="galleryBox" class="galleryBox">
+        <div class="galleryTitle">
+          <p>Gallery</p>
+        </div>
+      </div>
+      <div class="firstGalleryImgBox"></div>
+      <img class="firstGalleryImg" src="img/gallery/1.jpg" alt="" />
+    </div>
+  </body>
+</html>
